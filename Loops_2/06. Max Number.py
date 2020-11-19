@@ -7,5 +7,3 @@ for i in range(n):
     while number > max_number:
         max_number = number
 print(max_number)
-
-

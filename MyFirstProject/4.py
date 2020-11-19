@@ -1,6 +1,6 @@
 a = 2
 b = 7
 
-area =a*b
+area = a * b
 
 print(area)

@@ -9,7 +9,7 @@ for i in range(Tabs_open):
         salary -= 100
     elif name == "Reddit":
         salary -= 50
-    if salary <=0:
+    if salary <= 0:
         break
 
 if salary <= 0:

@@ -11,8 +11,6 @@ while count <= 12:
     else:
         score += score1
 
-average_score = score/12
+average_score = score / 12
 
 print(f"{name_student} graduated. Average grade:{average_score: .2f}")
-
-

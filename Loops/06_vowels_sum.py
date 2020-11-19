@@ -1,17 +1,17 @@
-length = input()
+len = input()
 
 sum = 0
 
-for i in range(0,len(length)):
-    if length[i] == "a":
+for i in range(0, len()):
+    if len[i] == "a":
         sum += 1
-    if length[i] == "e":
+    if len[i] == "e":
         sum += 2
-    if length[i] == "i":
+    if len[i] == "i":
         sum += 3
-    if length[i] == "o":
+    if len[i] == "o":
         sum += 4
-    if length[i] == "u":
+    if len[i] == "u":
         sum += 5
 
 print(sum)

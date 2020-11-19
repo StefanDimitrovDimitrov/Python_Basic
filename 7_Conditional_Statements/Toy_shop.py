@@ -24,4 +24,4 @@ if total >= vacation_price:
 else:
     print(f"Not enough money! {vacation_price - total:.2f} lv needed.")
 
-#print(total)
+print(total)

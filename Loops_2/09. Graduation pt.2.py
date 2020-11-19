@@ -9,7 +9,7 @@ is_expelled = False
 while count <= 12:
     score1 = float(input())
     if score1 >= 4:
-        count+=1
+        count += 1
         score += score1
     else:
         number_of_failer += 1

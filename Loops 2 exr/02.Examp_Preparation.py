@@ -26,11 +26,11 @@ while the_name != "Enough":
         is_he_fail = True
         break
 
-average_score /= (count -1)
+average_score /= (count - 1)
 
 if not is_he_fail:
     print(f"Average score:{average_score: .2f}")
-    print(f"Number of problems: {count-1}")
+    print(f"Number of problems: {count - 1}")
     print(f"Last problem: {the_name}")
 
 else:

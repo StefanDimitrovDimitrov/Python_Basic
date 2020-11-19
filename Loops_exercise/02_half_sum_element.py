@@ -1,6 +1,5 @@
 import sys
 
-max_num = 0
 max_num = -sys.maxsize
 sum_number = 0
 

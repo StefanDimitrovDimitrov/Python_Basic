@@ -1,8 +1,6 @@
 sum = int(float(input()) * 100)
 
-
 count = 0
-
 
 while sum != 0:
     if sum >= 200:

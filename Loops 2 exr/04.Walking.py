@@ -21,5 +21,3 @@ if reach_the_goal:
     print(f"Goal reached! Good job!")
 else:
     print(f'{10000 - steps} more steps to reach goal.')
-
-

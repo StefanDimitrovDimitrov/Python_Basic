@@ -19,8 +19,8 @@ while True:
             number_score += 1
             count += 1
             if count == judges:
-                aver_score = presentation_score/judges
+                aver_score = presentation_score / judges
                 presentation_score = 0
                 count = 0
                 print(f"{presentation_name} -{aver_score: .2f}.")
-print(f"Student's final assessment is{total_score/number_score: .2f}.")
+print(f"Student's final assessment is{total_score / number_score: .2f}.")

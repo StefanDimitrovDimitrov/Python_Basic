@@ -12,4 +12,3 @@ for i in range(incomes):
         break
 
 print(f"Total: {total:.2f}")
-

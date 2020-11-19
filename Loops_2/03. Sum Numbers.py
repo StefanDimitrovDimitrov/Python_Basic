@@ -8,4 +8,3 @@ while inpt != "Stop":
     inpt = input()
 
 print(sum22)
-

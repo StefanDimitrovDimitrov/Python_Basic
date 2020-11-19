@@ -1,9 +1,9 @@
 n = int(input())
-l = int(input())
+l_first = int(input())
 
 for i in range(1, n):
     for x in range(1, n):
-        for z in range(97, 97 + l):
+        for z in range(97, 97 + l_first):
             for r in range(97, 97 + l):
                 for t in range(1, n + 1):
                     z_1 = chr(z)
