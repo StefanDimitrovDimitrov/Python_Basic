@@ -1,17 +1,14 @@
-len = input()
+"""
+Да се напише програма, която чете текст (стринг), въведен от потребителя,
+и изчислява и отпечатва сумата от стойностите на гласните букви според таблицата по-долу:
 
-sum = 0
+"""
 
-for i in range(0, len()):
-    if len[i] == "a":
-        sum += 1
-    if len[i] == "e":
-        sum += 2
-    if len[i] == "i":
-        sum += 3
-    if len[i] == "o":
-        sum += 4
-    if len[i] == "u":
-        sum += 5
+dict = {"a":1,"e":2,"i":3,"o":4,"u":5}
 
-print(sum)
+def sum_values(word):
+    return sum([dict[i] for i in word if i in dict])
+word = input()
+
+print(sum_values(word))
+
